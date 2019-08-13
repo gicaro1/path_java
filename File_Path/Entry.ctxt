@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Entry
+comment0.text=\n\ Interface\ for\ entries\ in\ a\ file\ system.\ \n\n\ @author\ Giovanni\ Cardenas\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\n\ Returns\ the\ name\ of\ the\ entry.\n\n\ @return\ the\ name\ of\ the\ entry\n
+comment2.params=
+comment2.target=Folder\ getParentFolder()
+comment2.text=\n\ Returns\ the\ parent\ folder,\ i.e.,\ the\ folder\ in\ which\ this\ entry\ is\n\ stored.\n\n\ @return\ the\ parent\ folder,\ i.e.,\ the\ folder\ in\ which\ this\ entry\ is\n\ \ stored;\ null\ means\ that\ this\ entry\ is\ the\ root\ folder\n
+comment3.params=
+comment3.target=FileSystem\ getFileSystem()
+comment3.text=\n\ Returns\ the\ file\ system\ for\ this\ entry.\n\n\ @return\ the\ file\ system\ for\ this\ entry.\n
+comment4.params=
+comment4.target=int\ getSize()
+comment4.text=\n\ Returns\ the\ total\ size\ of\ all\ files\ at\ or\ below\ this\ Entry\ in\ the\n\ folder\ structure.\n\n\ @return\ the\ total\ size\ of\ all\ files\ at\ or\ below\ this\ Entry\ in\ the\n\ \ folder\ structure\n
+comment5.params=
+comment5.target=java.lang.String\ getPath()
+comment5.text=\n\ Returns\ the\ full\ path\ of\ this\ entry\ in\ the\ folder\ structure.\n\ Paths\ to\ entries\ that\ can\ contain\ entries\ (e.g.,\ folders\ and\ links\ to\n\ folders)\ end\ with\ SEPARATOR;\ paths\ to\ entries\ that\ cannot\ contain\ other\n\ entries\ (e.g.,\ files\ and\ links\ to\ files)\ do\ not\ end\ with\ SEPARATOR.\n\n\ @return\ the\ full\ path\ of\ this\ entry\ in\ the\ folder\ structure\n
+comment6.params=
+comment6.target=boolean\ isInFileSystem()
+comment6.text=\n\ Returns\ whether\ this\ entry\ is\ in\ the\ file\ system.\ An\ entry\ may\n\ have\ been\ removed\ by\ a\ remove\ operation\ at\ or\ above\ the\ entry.\n\n\ @return\ whether\ this\ entry\ is\ in\ the\ file\ system\ \n
+comment7.params=
+comment7.target=void\ remove()
+comment7.text=\n\ Removes\ an\ entry\ from\ the\ folder\ structure\ of\ the\ file\ system.\n\ Has\ no\ effect\ if\ the\ entry\ has\ already\ been\ removed\ directly\ or\n\ indirectly.\ If\ the\ method\ is\ called\ on\ a\ root\ folder,\ an\n\ IllegalArgumentException\ is\ thrown.\n\n\ @throws\ IllegalArgumentException\ if\ this\ entry\ is\ a\ root\ folder.\n
+numComments=8

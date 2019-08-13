@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=File
+comment0.text=\n\ A\ file\ is\ a\ file\ system\ entry\ with\ a\ certain\ size.\n\n\ @author\ Giovanni\ Cardenas\n
+comment1.params=parent\ name\ size
+comment1.target=File(Folder,\ java.lang.String,\ int)
+comment1.text=\n\ Constructs\ a\ new\ entry\ for\ a\ file\ with\ parent\ as\ parent\ folder\ and\n\ name\ as\ name.\n\n\ @param\ parent\ the\ parent\ folder\ of\ this\ entry;\ must\ not\ be\ null\n\ @param\ name\ the\ name\ of\ this\ entry;\ must\ not\ be\ null\n\ @param\ size\ the\ size\ of\ the\ file;\ must\ be\ at\ least\ 0\ \n
+comment2.params=
+comment2.target=java.lang.String\ getPath()
+comment3.params=
+comment3.target=int\ getSize()
+comment3.text=\ (non-Javadoc)\n\ @see\ Entry\#getSize()\n
+comment4.params=
+comment4.target=boolean\ isInFileSystem()
+comment4.text=\ (non-Javadoc)\n\ @see\ Entry\#isInFileSystem()\n
+comment5.params=
+comment5.target=void\ remove()
+comment5.text=\ (non-Javadoc)\n\ @see\ Entry\#remove()\n
+comment6.params=
+comment6.target=int\ hashCode()
+comment6.text=\ (non-Javadoc)\n\ @see\ java.lang.Object\#hashCode()\n
+comment7.params=obj
+comment7.target=boolean\ equals(java.lang.Object)
+comment7.text=\ (non-Javadoc)\n\ @see\ java.lang.Object\#equals(java.lang.Object)\n
+numComments=8

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=FileSystem
+comment0.text=\n\ A\ file\ system\ has\ a\ root\ folder\ as\ the\ origin\ of\ its\ folder\ structure.\n\n\ @author\ Giovanni\ Cardenas\n
+comment1.params=
+comment1.target=FileSystem()
+comment1.text=\n\ Constructs\ a\ file\ system\ with\ empty\ root\ folder.\n
+comment2.params=
+comment2.target=Folder\ getRootFolder()
+comment2.text=\n\ Returns\ the\ root\ folder\ of\ the\ file\ system.\n\n\ @return\ the\ root\ folder\ of\ the\ file\ system\n
+numComments=3

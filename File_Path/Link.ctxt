@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Link
+comment0.text=\n\ A\ symbolic\ link\ is\ a\ pointer\ to\ an\ entry\ in\ the\ file\ system.\n\ \n\ @author\ Giovanni\ Cardenas\n\n\ @param\ <T>\ The\ type\ of\ file\ system\ entry\ to\ which\ this\ Link\ points.\ \n
+comment1.params=folder\ name\ entity
+comment1.target=Link(Folder,\ java.lang.String,\ Entry)
+comment1.text=\n\ Constructs\ a\ new\ link\ to\ an\ entity.\n\n\ @param\ folder\ the\ parent\ folder\ of\ this\ link;\ must\ not\ be\ null\ \n\ @param\ name\ the\ name\ of\ this\ link;\ must\ not\ be\ null\n\ @param\ entity\ the\ entity\ to\ which\ this\ links\ points;\ must\ not\ be\ null\ \n
+comment2.params=
+comment2.target=Entry\ getTarget()
+comment2.text=\n\ Returns\ the\ entity\ to\ which\ this\ Link\ points\ (the\ target\ of\ the\ link).\n\n\ @return\ the\ entity\ to\ which\ this\ Link\ points.\n
+comment3.params=
+comment3.target=boolean\ isValidLink()
+comment3.text=\n\ Returns\ whether\ this\ Link\ is\ valid\ for\ the\ current\ file\ system.\n\n\ @return\ whether\ this\ Link\ is\ valid\ for\ the\ current\ file\ system,\ i.e.,\n\ \ whether\ it\ links\ to\ an\ entry\ currently\ stored\ in\ the\ file\ system\n
+comment4.params=
+comment4.target=int\ hashCode()
+comment4.text=\ (non-Javadoc)\n\ @see\ java.lang.Object\#hashCode()\n
+comment5.params=obj
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\ (non-Javadoc)\n\ @see\ java.lang.Object\#equals(java.lang.Object)\n
+numComments=6

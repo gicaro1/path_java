@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=FolderLink
+comment0.text=\n\ A\ symbolic\ link\ to\ a\ folder\ in\ a\ file\ system.\n\ \n\ @author\ Giovanni\ Cardenas\n
+comment1.params=parent\ name\ target
+comment1.target=FolderLink(Folder,\ java.lang.String,\ Folder)
+comment1.text=\n\ Constructs\ a\ new\ link\ to\ a\ folder.\n\n\ @param\ parent\ the\ parent\ folder\ of\ this\ link;\ must\ not\ be\ null\ \n\ @param\ name\ the\ name\ of\ this\ link;\ must\ not\ be\ null\n\ @param\ target\ the\ folder\ to\ which\ this\ links\ points;\ must\ not\ be\ null\ \n
+comment2.params=
+comment2.target=boolean\ isInFileSystem()
+comment2.text=\ (non-Javadoc)\n\ @see\ Entry\#isInFileSystem()\n
+comment3.params=
+comment3.target=java.lang.String\ getPath()
+comment3.text=\ (non-Javadoc)\n\ @see\ Entry\#getPath()\n
+comment4.params=
+comment4.target=int\ getSize()
+comment4.text=\ (non-Javadoc)\n\ @see\ Entry\#getSize()\n
+comment5.params=
+comment5.target=FolderLink\ getFolderLink()
+comment6.params=
+comment6.target=void\ remove()
+comment6.text=\ (non-Javadoc)\n\ @see\ Entry\#remove()\n
+comment7.params=obj
+comment7.target=boolean\ equals(java.lang.Object)
+comment7.text=\ (non-Javadoc)\n\ @see\ java.lang.Object\#equals(java.lang.Object)\n
+numComments=8

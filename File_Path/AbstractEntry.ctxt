@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=AbstractEntry
+comment0.text=\n\ Abstract\ superclass\ for\ entries\ in\ a\ file\ system.\ \n\n\ @author\ Giovanni\ Cardenas\n
+comment1.params=folder\ name
+comment1.target=AbstractEntry(Folder,\ java.lang.String)
+comment1.text=\n\ Constructs\ a\ new\ entry\ with\ folder\ as\ parent\ folder\ and\ name\ as\ name.\n\ \n\ @param\ folder\ the\ parent\ folder\ of\ this\ entry;\ must\ not\ be\ null\n\ @param\ name\ the\ name\ of\ this\ entry;\ must\ not\ be\ null\n
+comment2.params=fileSystem\ name
+comment2.target=AbstractEntry(FileSystem,\ java.lang.String)
+comment2.text=\n\ For\ the\ root\ folder\ only.\n\n\ @param\ fileSystem\ the\ file\ system\ for\ the\ root\ folder;\ non-null\n\ @param\ the\ name\ of\ the\ entry;\ non-null\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\ (non-Javadoc)\n\ @see\ Entry\#getName()\n
+comment4.params=
+comment4.target=Folder\ getParentFolder()
+comment4.text=\ (non-Javadoc)\n\ @see\ Entry\#getParentFolder()\n
+comment5.params=
+comment5.target=FileSystem\ getFileSystem()
+comment6.params=
+comment6.target=int\ hashCode()
+comment6.text=\ (non-Javadoc)\n\ @see\ java.lang.Object\#hashCode()\n
+comment7.params=obj
+comment7.target=boolean\ equals(java.lang.Object)
+comment7.text=\ (non-Javadoc)\n\ @see\ java.lang.Object\#equals(java.lang.Object)\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9
